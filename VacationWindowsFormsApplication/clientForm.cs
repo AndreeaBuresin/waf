@@ -10,16 +10,20 @@ using System.Windows.Forms;
 
 namespace VacationWindowsFormsApplication
 {
-    public partial class startPage : Form
+    public partial class ClientForm : Form
     {
-        public startPage()
+        public ClientForm()
         {
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void backToStart(object sender, EventArgs e)
         {
-
+            
+            startPage frm = new startPage();
+            frm.Show();
         }
+        //private void ClientForm.Close();
+
     }
 }
