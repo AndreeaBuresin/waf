@@ -21,8 +21,11 @@ namespace VacationWindowsFormsApplication
         {
             
             startPage frm = new startPage();
+            
             frm.Show();
+            
         }
+        
         //private void ClientForm.Close();
 
     }

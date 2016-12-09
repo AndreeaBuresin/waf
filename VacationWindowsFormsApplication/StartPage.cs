@@ -27,26 +27,17 @@ namespace VacationWindowsFormsApplication
             this.Close();
         }
 
-        private void webSite(object sender, EventArgs e)
-        {
-
-        }
-
-        private void createUser(object sender, EventArgs e)
-        {
-            CreateUserForm frm = new CreateUserForm();
-            frm.Show();
-        }
-
-        private void updateUserPage(object sender, EventArgs e)
-        {
-            UpdateUserForm frm = new UpdateUserForm();
-            frm.Show();
-        }
-
         private void viewClientForm(object sender, EventArgs e)
         {
+            this.Hide();
             ClientForm frm = new ClientForm();
+            frm.Show();
+        }
+
+        private void goToreservation(object sender, EventArgs e)
+        {
+            this.Hide();
+            ReservationForm frm = new ReservationForm();
             frm.Show();
         }
     }

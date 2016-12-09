@@ -10,17 +10,28 @@ using System.Windows.Forms;
 
 namespace VacationWindowsFormsApplication
 {
-    public partial class UpdateUserForm : Form
+    public partial class ReservationForm : Form
     {
-        public UpdateUserForm()
+        public ReservationForm()
         {
             InitializeComponent();
         }
 
         private void backToStart(object sender, EventArgs e)
         {
+            this.Hide();
             startPage frm = new startPage();
             frm.Show();
+        }
+
+        private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -10,15 +10,16 @@ using System.Windows.Forms;
 
 namespace VacationWindowsFormsApplication
 {
-    public partial class CreateUserForm : Form
+    public partial class InvoiceForm : Form
     {
-        public CreateUserForm()
+        public InvoiceForm()
         {
             InitializeComponent();
         }
 
-        private void backToStart(object sender, EventArgs e)
+        private void goToStartPage(object sender, EventArgs e)
         {
+            this.Hide();
             startPage frm = new startPage();
             frm.Show();
         }
