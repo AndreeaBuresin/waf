@@ -74,11 +74,12 @@
             this.invoiceBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.invoiceBox.ErrorImage = null;
             this.invoiceBox.InitialImage = null;
-            this.invoiceBox.Location = new System.Drawing.Point(12, 640);
+            this.invoiceBox.Location = new System.Drawing.Point(147, 664);
             this.invoiceBox.Name = "invoiceBox";
-            this.invoiceBox.Size = new System.Drawing.Size(225, 119);
+            this.invoiceBox.Size = new System.Drawing.Size(139, 119);
             this.invoiceBox.TabIndex = 2;
             this.invoiceBox.TabStop = false;
+            this.invoiceBox.Click += new System.EventHandler(this.invoiceBox_Click);
             // 
             // reservationBox
             // 
@@ -87,9 +88,9 @@
             this.reservationBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.reservationBox.ErrorImage = null;
             this.reservationBox.InitialImage = null;
-            this.reservationBox.Location = new System.Drawing.Point(12, 432);
+            this.reservationBox.Location = new System.Drawing.Point(147, 442);
             this.reservationBox.Name = "reservationBox";
-            this.reservationBox.Size = new System.Drawing.Size(225, 119);
+            this.reservationBox.Size = new System.Drawing.Size(139, 119);
             this.reservationBox.TabIndex = 3;
             this.reservationBox.TabStop = false;
             this.reservationBox.Click += new System.EventHandler(this.goToreservation);
@@ -101,9 +102,9 @@
             this.clientBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.clientBox.ErrorImage = null;
             this.clientBox.InitialImage = null;
-            this.clientBox.Location = new System.Drawing.Point(12, 223);
+            this.clientBox.Location = new System.Drawing.Point(147, 209);
             this.clientBox.Name = "clientBox";
-            this.clientBox.Size = new System.Drawing.Size(225, 119);
+            this.clientBox.Size = new System.Drawing.Size(139, 119);
             this.clientBox.TabIndex = 4;
             this.clientBox.TabStop = false;
             this.clientBox.Click += new System.EventHandler(this.viewClientForm);

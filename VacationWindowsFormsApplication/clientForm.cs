@@ -19,9 +19,8 @@ namespace VacationWindowsFormsApplication
 
         private void backToStart(object sender, EventArgs e)
         {
-            
+            this.Hide();
             startPage frm = new startPage();
-            
             frm.Show();
             
         }

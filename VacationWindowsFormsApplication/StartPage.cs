@@ -40,5 +40,13 @@ namespace VacationWindowsFormsApplication
             ReservationForm frm = new ReservationForm();
             frm.Show();
         }
+
+        private void invoiceBox_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            InvoiceForm frm = new InvoiceForm();
+            frm.Show();
+
+        }
     }
 }

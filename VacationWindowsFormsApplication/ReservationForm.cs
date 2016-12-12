@@ -33,5 +33,20 @@ namespace VacationWindowsFormsApplication
         {
 
         }
+
+        private void ReservationForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cleaningPcBox_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cleaningCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
